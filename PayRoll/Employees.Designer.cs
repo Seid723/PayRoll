@@ -1,4 +1,4 @@
-﻿namespace PayRoll
+namespace PayRoll
 {
     partial class Employees
     {
@@ -38,18 +38,33 @@
             pictureBox2 = new PictureBox();
             pictureBox1 = new PictureBox();
             panel1 = new Panel();
-            label1 = new Label();
-            label2 = new Label();
-            label3 = new Label();
-            label4 = new Label();
-            panel5 = new Panel();
-            label5 = new Label();
-            label6 = new Label();
-            pictureBox9 = new PictureBox();
-            panel2 = new Panel();
-            textBox1 = new TextBox();
-            label7 = new Label();
+            label16 = new Label();
+            textBox5 = new TextBox();
+            label15 = new Label();
+            textBox4 = new TextBox();
+            label14 = new Label();
+            comboBox3 = new ComboBox();
+            label13 = new Label();
+            dateTimePicker2 = new DateTimePicker();
+            label12 = new Label();
+            comboBox2 = new ComboBox();
+            label11 = new Label();
+            textBox3 = new TextBox();
+            label9 = new Label();
+            dateTimePicker1 = new DateTimePicker();
+            label8 = new Label();
             comboBox1 = new ComboBox();
+            label7 = new Label();
+            textBox1 = new TextBox();
+            panel2 = new Panel();
+            pictureBox9 = new PictureBox();
+            label6 = new Label();
+            label5 = new Label();
+            panel5 = new Panel();
+            label4 = new Label();
+            label3 = new Label();
+            label2 = new Label();
+            label1 = new Label();
             ((System.ComponentModel.ISupportInitialize)pictureBox8).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox7).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox6).BeginInit();
@@ -59,8 +74,8 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox2).BeginInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             panel1.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             panel2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).BeginInit();
             SuspendLayout();
             // 
             // pictureBox8
@@ -160,6 +175,21 @@
             // panel1
             // 
             panel1.BackColor = Color.White;
+            panel1.Controls.Add(label16);
+            panel1.Controls.Add(textBox5);
+            panel1.Controls.Add(label15);
+            panel1.Controls.Add(textBox4);
+            panel1.Controls.Add(label14);
+            panel1.Controls.Add(comboBox3);
+            panel1.Controls.Add(label13);
+            panel1.Controls.Add(dateTimePicker2);
+            panel1.Controls.Add(label12);
+            panel1.Controls.Add(comboBox2);
+            panel1.Controls.Add(label11);
+            panel1.Controls.Add(textBox3);
+            panel1.Controls.Add(label9);
+            panel1.Controls.Add(dateTimePicker1);
+            panel1.Controls.Add(label8);
             panel1.Controls.Add(comboBox1);
             panel1.Controls.Add(label7);
             panel1.Controls.Add(textBox1);
@@ -170,85 +200,185 @@
             panel1.Name = "panel1";
             panel1.Size = new Size(1497, 699);
             panel1.TabIndex = 8;
+            panel1.Paint += panel1_Paint;
             // 
-            // label1
+            // label16
             // 
-            label1.AutoSize = true;
-            label1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label1.Location = new Point(25, 9);
-            label1.Name = "label1";
-            label1.Size = new Size(61, 23);
-            label1.TabIndex = 2;
-            label1.Text = "Home";
+            label16.AutoSize = true;
+            label16.Font = new Font("Arial", 12F);
+            label16.Location = new Point(1130, 103);
+            label16.Name = "label16";
+            label16.Size = new Size(65, 23);
+            label16.TabIndex = 34;
+            label16.Text = "Phone";
             // 
-            // label2
+            // textBox5
             // 
-            label2.AutoSize = true;
-            label2.Font = new Font("Arial", 12F);
-            label2.Location = new Point(155, 9);
-            label2.Name = "label2";
-            label2.Size = new Size(107, 23);
-            label2.TabIndex = 4;
-            label2.Text = "Employees";
+            textBox5.BorderStyle = BorderStyle.FixedSingle;
+            textBox5.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox5.Location = new Point(1130, 129);
+            textBox5.Name = "textBox5";
+            textBox5.Size = new Size(244, 30);
+            textBox5.TabIndex = 33;
             // 
-            // label3
+            // label15
             // 
-            label3.AutoSize = true;
-            label3.Font = new Font("Arial", 12F);
-            label3.Location = new Point(323, 9);
-            label3.Name = "label3";
-            label3.Size = new Size(64, 23);
-            label3.TabIndex = 5;
-            label3.Text = "Bonus";
+            label15.AutoSize = true;
+            label15.Font = new Font("Arial", 12F);
+            label15.Location = new Point(823, 103);
+            label15.Name = "label15";
+            label15.Size = new Size(117, 23);
+            label15.TabIndex = 32;
+            label15.Text = "Base Salary";
             // 
-            // label4
+            // textBox4
             // 
-            label4.AutoSize = true;
-            label4.Font = new Font("Arial", 12F);
-            label4.Location = new Point(457, 9);
-            label4.Name = "label4";
-            label4.Size = new Size(85, 23);
-            label4.TabIndex = 6;
-            label4.Text = "Advance";
+            textBox4.BorderStyle = BorderStyle.FixedSingle;
+            textBox4.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox4.Location = new Point(823, 129);
+            textBox4.Name = "textBox4";
+            textBox4.Size = new Size(244, 30);
+            textBox4.TabIndex = 31;
             // 
-            // panel5
+            // label14
             // 
-            panel5.BackColor = Color.Black;
-            panel5.Location = new Point(175, 37);
-            panel5.Name = "panel5";
-            panel5.Size = new Size(61, 10);
-            panel5.TabIndex = 7;
+            label14.AutoSize = true;
+            label14.Font = new Font("Arial", 12F);
+            label14.Location = new Point(1130, 172);
+            label14.Name = "label14";
+            label14.Size = new Size(127, 23);
+            label14.TabIndex = 30;
+            label14.Text = "Qualifications";
+            label14.Click += label14_Click;
             // 
-            // label5
+            // comboBox3
             // 
-            label5.AutoSize = true;
-            label5.Font = new Font("Arial", 12F);
-            label5.Location = new Point(609, 9);
-            label5.Name = "label5";
-            label5.Size = new Size(109, 23);
-            label5.TabIndex = 10;
-            label5.Text = "Attendance";
+            comboBox3.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox3.FormattingEnabled = true;
+            comboBox3.Items.AddRange(new object[] { "BCA", "MCA", "MBA", "BCOM", "Btech", "BBA", "Other" });
+            comboBox3.Location = new Point(1130, 197);
+            comboBox3.Name = "comboBox3";
+            comboBox3.Size = new Size(244, 31);
+            comboBox3.TabIndex = 29;
+            comboBox3.SelectedIndexChanged += comboBox3_SelectedIndexChanged;
             // 
-            // label6
+            // label13
             // 
-            label6.AutoSize = true;
-            label6.Font = new Font("Arial", 12F);
-            label6.Location = new Point(790, 9);
-            label6.Name = "label6";
-            label6.Size = new Size(119, 23);
-            label6.TabIndex = 12;
-            label6.Text = "Issue Salary";
+            label13.AutoSize = true;
+            label13.Font = new Font("Arial", 12F);
+            label13.Location = new Point(525, 103);
+            label13.Name = "label13";
+            label13.Size = new Size(93, 23);
+            label13.TabIndex = 28;
+            label13.Text = "Join Date";
             // 
-            // pictureBox9
+            // dateTimePicker2
             // 
-            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
-            pictureBox9.Location = new Point(1408, 0);
-            pictureBox9.Margin = new Padding(4, 3, 4, 3);
-            pictureBox9.Name = "pictureBox9";
-            pictureBox9.Size = new Size(59, 47);
-            pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
-            pictureBox9.TabIndex = 14;
-            pictureBox9.TabStop = false;
+            dateTimePicker2.CalendarMonthBackground = Color.White;
+            dateTimePicker2.Location = new Point(525, 129);
+            dateTimePicker2.Name = "dateTimePicker2";
+            dateTimePicker2.Size = new Size(244, 27);
+            dateTimePicker2.TabIndex = 27;
+            // 
+            // label12
+            // 
+            label12.AutoSize = true;
+            label12.Font = new Font("Arial", 12F);
+            label12.Location = new Point(823, 168);
+            label12.Name = "label12";
+            label12.Size = new Size(79, 23);
+            label12.TabIndex = 26;
+            label12.Text = "Position";
+            // 
+            // comboBox2
+            // 
+            comboBox2.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox2.FormattingEnabled = true;
+            comboBox2.Items.AddRange(new object[] { "Manager", "Senior", "Junior" });
+            comboBox2.Location = new Point(823, 194);
+            comboBox2.Name = "comboBox2";
+            comboBox2.Size = new Size(244, 31);
+            comboBox2.TabIndex = 25;
+            // 
+            // label11
+            // 
+            label11.AutoSize = true;
+            label11.Font = new Font("Arial", 12F);
+            label11.Location = new Point(323, 99);
+            label11.Name = "label11";
+            label11.Size = new Size(83, 23);
+            label11.TabIndex = 24;
+            label11.Text = "Address";
+            // 
+            // textBox3
+            // 
+            textBox3.BorderStyle = BorderStyle.FixedSingle;
+            textBox3.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox3.Location = new Point(323, 125);
+            textBox3.Multiline = true;
+            textBox3.Name = "textBox3";
+            textBox3.Size = new Size(156, 92);
+            textBox3.TabIndex = 23;
+            // 
+            // label9
+            // 
+            label9.AutoSize = true;
+            label9.Font = new Font("Arial", 12F);
+            label9.Location = new Point(525, 172);
+            label9.Name = "label9";
+            label9.Size = new Size(121, 23);
+            label9.TabIndex = 20;
+            label9.Text = "Date of Birth";
+            label9.Click += label9_Click;
+            // 
+            // dateTimePicker1
+            // 
+            dateTimePicker1.CalendarMonthBackground = Color.White;
+            dateTimePicker1.Location = new Point(525, 198);
+            dateTimePicker1.Name = "dateTimePicker1";
+            dateTimePicker1.Size = new Size(244, 27);
+            dateTimePicker1.TabIndex = 19;
+            // 
+            // label8
+            // 
+            label8.AutoSize = true;
+            label8.Font = new Font("Arial", 12F);
+            label8.Location = new Point(25, 161);
+            label8.Name = "label8";
+            label8.Size = new Size(76, 23);
+            label8.TabIndex = 18;
+            label8.Text = "Gender";
+            // 
+            // comboBox1
+            // 
+            comboBox1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            comboBox1.FormattingEnabled = true;
+            comboBox1.Items.AddRange(new object[] { "Male", "Female", "There is no other" });
+            comboBox1.Location = new Point(25, 186);
+            comboBox1.Name = "comboBox1";
+            comboBox1.Size = new Size(244, 31);
+            comboBox1.TabIndex = 17;
+            // 
+            // label7
+            // 
+            label7.AutoSize = true;
+            label7.Font = new Font("Arial", 12F);
+            label7.Location = new Point(25, 99);
+            label7.Name = "label7";
+            label7.Size = new Size(61, 23);
+            label7.TabIndex = 16;
+            label7.Text = "Name";
+            label7.Click += label7_Click;
+            // 
+            // textBox1
+            // 
+            textBox1.BorderStyle = BorderStyle.FixedSingle;
+            textBox1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            textBox1.Location = new Point(25, 125);
+            textBox1.Name = "textBox1";
+            textBox1.Size = new Size(244, 30);
+            textBox1.TabIndex = 15;
+            textBox1.TextChanged += textBox1_TextChanged;
             // 
             // panel2
             // 
@@ -268,31 +398,85 @@
             panel2.Size = new Size(1497, 46);
             panel2.TabIndex = 0;
             // 
-            // textBox1
+            // pictureBox9
             // 
-            textBox1.Location = new Point(25, 125);
-            textBox1.Name = "textBox1";
-            textBox1.Size = new Size(125, 27);
-            textBox1.TabIndex = 15;
-            textBox1.TextChanged += textBox1_TextChanged;
+            pictureBox9.Image = (Image)resources.GetObject("pictureBox9.Image");
+            pictureBox9.Location = new Point(1408, 0);
+            pictureBox9.Margin = new Padding(4, 3, 4, 3);
+            pictureBox9.Name = "pictureBox9";
+            pictureBox9.Size = new Size(59, 47);
+            pictureBox9.SizeMode = PictureBoxSizeMode.Zoom;
+            pictureBox9.TabIndex = 14;
+            pictureBox9.TabStop = false;
             // 
-            // label7
+            // label6
             // 
-            label7.AutoSize = true;
-            label7.Font = new Font("Arial", 12F);
-            label7.Location = new Point(25, 103);
-            label7.Name = "label7";
-            label7.Size = new Size(61, 23);
-            label7.TabIndex = 16;
-            label7.Text = "Name";
+            label6.AutoSize = true;
+            label6.Font = new Font("Arial", 12F);
+            label6.Location = new Point(790, 9);
+            label6.Name = "label6";
+            label6.Size = new Size(119, 23);
+            label6.TabIndex = 12;
+            label6.Text = "Issue Salary";
             // 
-            // comboBox1
+            // label5
             // 
-            comboBox1.FormattingEnabled = true;
-            comboBox1.Location = new Point(25, 186);
-            comboBox1.Name = "comboBox1";
-            comboBox1.Size = new Size(125, 28);
-            comboBox1.TabIndex = 17;
+            label5.AutoSize = true;
+            label5.Font = new Font("Arial", 12F);
+            label5.Location = new Point(609, 9);
+            label5.Name = "label5";
+            label5.Size = new Size(109, 23);
+            label5.TabIndex = 10;
+            label5.Text = "Attendance";
+            // 
+            // panel5
+            // 
+            panel5.BackColor = Color.Black;
+            panel5.Location = new Point(175, 37);
+            panel5.Name = "panel5";
+            panel5.Size = new Size(61, 10);
+            panel5.TabIndex = 7;
+            // 
+            // label4
+            // 
+            label4.AutoSize = true;
+            label4.Font = new Font("Arial", 12F);
+            label4.Location = new Point(457, 9);
+            label4.Name = "label4";
+            label4.Size = new Size(85, 23);
+            label4.TabIndex = 6;
+            label4.Text = "Advance";
+            // 
+            // label3
+            // 
+            label3.AutoSize = true;
+            label3.Font = new Font("Arial", 12F);
+            label3.Location = new Point(323, 9);
+            label3.Name = "label3";
+            label3.Size = new Size(64, 23);
+            label3.TabIndex = 5;
+            label3.Text = "Bonus";
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Arial", 12F);
+            label2.Location = new Point(155, 9);
+            label2.Name = "label2";
+            label2.Size = new Size(107, 23);
+            label2.TabIndex = 4;
+            label2.Text = "Employees";
+            label2.Click += label2_Click;
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Arial", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label1.Location = new Point(25, 9);
+            label1.Name = "label1";
+            label1.Size = new Size(61, 23);
+            label1.TabIndex = 2;
+            label1.Text = "Home";
             // 
             // Employees
             // 
@@ -323,9 +507,9 @@
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             panel1.ResumeLayout(false);
             panel1.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             panel2.ResumeLayout(false);
             panel2.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)pictureBox9).EndInit();
             ResumeLayout(false);
         }
 
@@ -352,5 +536,20 @@
         private Label label7;
         private TextBox textBox1;
         private ComboBox comboBox1;
+        private Label label8;
+        private DateTimePicker dateTimePicker1;
+        private Label label9;
+        private Label label12;
+        private ComboBox comboBox2;
+        private Label label11;
+        private TextBox textBox3;
+        private Label label14;
+        private ComboBox comboBox3;
+        private Label label13;
+        private DateTimePicker dateTimePicker2;
+        private Label label16;
+        private TextBox textBox5;
+        private Label label15;
+        private TextBox textBox4;
     }
 }
